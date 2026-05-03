@@ -27,7 +27,8 @@ def run_command(command,output_file):
 
 def run_nmap(target):
     output = f"{OUTPUT_DIR}/nmap.txt"
-    cmd = f"nmap -sV {clean_target}"
+    clean = clean_target(target)
+    cmd = f"nmap -sV {clean}"
     run_command(cmd,output)
     return output
 
