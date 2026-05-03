@@ -1,0 +1,43 @@
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2026-05-03 05:08 UTC
+Nmap scan report for microsoft.in (20.112.250.133)
+Host is up (0.083s latency).
+Other addresses for microsoft.in (not scanned): 20.236.44.162 20.231.239.246 20.70.246.20 20.76.201.171
+Not shown: 999 filtered tcp ports (no-response)
+PORT   STATE SERVICE VERSION
+80/tcp open  http    Kestrel
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port80-TCP:V=7.94SVN%I=7%D=5/3%Time=69F6D890%P=x86_64-pc-linux-gnu%r(Ge
+SF:tRequest,82,"HTTP/1\.1\x20500\x20Internal\x20Server\x20Error\r\nContent
+SF:-Length:\x200\r\nConnection:\x20close\r\nDate:\x20Sun,\x2003\x20May\x20
+SF:2026\x2005:09:35\x20GMT\r\nServer:\x20Kestrel\r\n\r\n")%r(HTTPOptions,8
+SF:2,"HTTP/1\.1\x20500\x20Internal\x20Server\x20Error\r\nContent-Length:\x
+SF:200\r\nConnection:\x20close\r\nDate:\x20Sun,\x2003\x20May\x202026\x2005
+SF::09:35\x20GMT\r\nServer:\x20Kestrel\r\n\r\n")%r(RTSPRequest,87,"HTTP/1\
+SF:.1\x20505\x20HTTP\x20Version\x20Not\x20Supported\r\nContent-Length:\x20
+SF:0\r\nConnection:\x20close\r\nDate:\x20Sun,\x2003\x20May\x202026\x2005:0
+SF:9:36\x20GMT\r\nServer:\x20Kestrel\r\n\r\n")%r(FourOhFourRequest,82,"HTT
+SF:P/1\.1\x20500\x20Internal\x20Server\x20Error\r\nContent-Length:\x200\r\
+SF:nConnection:\x20close\r\nDate:\x20Sun,\x2003\x20May\x202026\x2005:09:42
+SF:\x20GMT\r\nServer:\x20Kestrel\r\n\r\n")%r(Help,78,"HTTP/1\.1\x20400\x20
+SF:Bad\x20Request\r\nContent-Length:\x200\r\nConnection:\x20close\r\nDate:
+SF:\x20Sun,\x2003\x20May\x202026\x2005:10:04\x20GMT\r\nServer:\x20Kestrel\
+SF:r\n\r\n")%r(SSLSessionReq,78,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nCon
+SF:tent-Length:\x200\r\nConnection:\x20close\r\nDate:\x20Sun,\x2003\x20May
+SF:\x202026\x2005:10:05\x20GMT\r\nServer:\x20Kestrel\r\n\r\n")%r(TerminalS
+SF:erverCookie,78,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Length:\x
+SF:200\r\nConnection:\x20close\r\nDate:\x20Sun,\x2003\x20May\x202026\x2005
+SF::10:06\x20GMT\r\nServer:\x20Kestrel\r\n\r\n")%r(TLSSessionReq,78,"HTTP/
+SF:1\.1\x20400\x20Bad\x20Request\r\nContent-Length:\x200\r\nConnection:\x2
+SF:0close\r\nDate:\x20Sun,\x2003\x20May\x202026\x2005:10:06\x20GMT\r\nServ
+SF:er:\x20Kestrel\r\n\r\n")%r(Kerberos,78,"HTTP/1\.1\x20400\x20Bad\x20Requ
+SF:est\r\nContent-Length:\x200\r\nConnection:\x20close\r\nDate:\x20Sun,\x2
+SF:003\x20May\x202026\x2005:10:07\x20GMT\r\nServer:\x20Kestrel\r\n\r\n")%r
+SF:(LPDString,78,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Length:\x2
+SF:00\r\nConnection:\x20close\r\nDate:\x20Sun,\x2003\x20May\x202026\x2005:
+SF:10:13\x20GMT\r\nServer:\x20Kestrel\r\n\r\n")%r(LDAPSearchReq,78,"HTTP/1
+SF:\.1\x20400\x20Bad\x20Request\r\nContent-Length:\x200\r\nConnection:\x20
+SF:close\r\nDate:\x20Sun,\x2003\x20May\x202026\x2005:10:13\x20GMT\r\nServe
+SF:r:\x20Kestrel\r\n\r\n");
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 151.81 seconds
